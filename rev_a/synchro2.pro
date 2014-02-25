@@ -1,4 +1,4 @@
-update=Tue 28 Jan 2014 11:05:03 PM PST
+update=Sun 02 Feb 2014 07:14:52 PM PST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -26,7 +26,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=../../../pcb_footprints
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -47,7 +47,10 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=../rev_a
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=../rev_a;../../../../../wayne
 NetFmtName=
 RptD_X=0
 RptD_Y=100

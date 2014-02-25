@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name IPC7351-Nominal)(type Legacy)(uri /home/wayne/public_html/projects/pcb_footprints/IPC7351-Nominal.mod)(options "")(descr ""))
+  (lib (name Extra-Nominal)(type Legacy)(uri /home/wayne/public_html/projects/pcb_footprints/extra-nominal.mod)(options "")(descr ""))
+  (lib (name Robus)(type Legacy)(uri /home/wayne/public_html/projects/robus/robus.mod)(options "")(descr ""))
+  (lib (name Synchro2_Rev_A)(type Kicad)(uri /home/wayne/public_html/projects/synchro_drive_motor_driver_pcb/rev_a/synchro2.pretty)(options "")(descr ""))
+)
