@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-21 BZR 4712)-product date = Mon 24 Feb 2014 11:35:48 PM PST
+Cmp-Mod V01 Created by CvPcb (2014-02-21 BZR 4712)-product date = Sun 02 Mar 2014 06:27:49 PM PST
 
 BeginCmp
 TimeStamp = /52EAF23F;
 Reference = C1;
-ValeurCmp = 22uF;
+ValeurCmp = 22uF_35V_ALUM;
 IdModule  = Synchro2_Rev_A:CAPAE530X540N;
 EndCmp
 
@@ -17,7 +17,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EAF256;
 Reference = C3;
-ValeurCmp = 22uF;
+ValeurCmp = 22uF_6.3V_TANT;
 IdModule  = Synchro2_Rev_A:CAPMP3216X180N;
 EndCmp
 
@@ -87,14 +87,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52E8DBBA/52E90C07;
 Reference = C13;
-ValeurCmp = 22uF;
+ValeurCmp = 22uF_35V_ALUM;
 IdModule  = Synchro2_Rev_A:CAPAE530X540N;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/52E90C1F;
 Reference = C14;
-ValeurCmp = 22uF;
+ValeurCmp = 22uF_6.3V_TANT;
 IdModule  = Synchro2_Rev_A:CAPMP3216X180N;
 EndCmp
 
@@ -227,119 +227,119 @@ EndCmp
 BeginCmp
 TimeStamp = /52EC75D7;
 Reference = H1;
-ValeurCmp = M3.0_#4_HOLE_J;
+ValeurCmp = M3.0_#4_HOLE__J;
 IdModule  = Synchro2_Rev_A:M3.0_#4_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC75E4;
 Reference = H2;
-ValeurCmp = M3.0_#4_HOLE_K;
+ValeurCmp = M3.0_#4_HOLE__K;
 IdModule  = Synchro2_Rev_A:M3.0_#4_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC75EA;
 Reference = H3;
-ValeurCmp = M3.0_#4_HOLE_L;
+ValeurCmp = M3.0_#4_HOLE__L;
 IdModule  = Synchro2_Rev_A:M3.0_#4_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC75F0;
 Reference = H4;
-ValeurCmp = M3.0_#4_HOLE_M;
+ValeurCmp = M3.0_#4_HOLE__M;
 IdModule  = Synchro2_Rev_A:M3.0_#4_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /530A6597;
 Reference = H5;
-ValeurCmp = M1.0_HOLE;
+ValeurCmp = M1.0_HOLE__TW;
 IdModule  = Synchro2_Rev_A:M1.0_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC7766;
 Reference = H6;
-ValeurCmp = M3.5_#6_HOLE_N;
+ValeurCmp = M3.5_#6_HOLE__N;
 IdModule  = Synchro2_Rev_A:M3.5_#6_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC7773;
 Reference = H7;
-ValeurCmp = M3.5_#6_HOLE_O;
+ValeurCmp = M3.5_#6_HOLE__O;
 IdModule  = Synchro2_Rev_A:M3.5_#6_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC7779;
 Reference = H8;
-ValeurCmp = M3.5_#6_HOLE_P;
+ValeurCmp = M3.5_#6_HOLE__P;
 IdModule  = Synchro2_Rev_A:M3.5_#6_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EC777F;
 Reference = H9;
-ValeurCmp = M3.5_#6_HOLE_Q;
+ValeurCmp = M3.5_#6_HOLE__Q;
 IdModule  = Synchro2_Rev_A:M3.5_#6_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /530A6561;
 Reference = H10;
-ValeurCmp = M1.0_HOLE;
+ValeurCmp = M1.0_HOLE__DR;
 IdModule  = Synchro2_Rev_A:M1.0_HOLE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EF8BA9;
 Reference = J1;
-ValeurCmp = UPDATE_ENABLE;
+ValeurCmp = HEADER_1X3;
 IdModule  = Synchro2_Rev_A:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DCAEAD;
 Reference = N1;
-ValeurCmp = OMRON XG4A-2632;
+ValeurCmp = HEADER_2X13_OMRON;
 IdModule  = Synchro2_Rev_A:OMRON_X4GA_2632;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E650CF;
 Reference = N2;
-ValeurCmp = FTDI_CONN;
+ValeurCmp = HEADER_1X6__FTDI;
 IdModule  = Synchro2_Rev_A:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ECA3DF;
 Reference = N3;
-ValeurCmp = ARM_JTAG_10PIN;
+ValeurCmp = HEADER_2X5_1.27MM__JTAG;
 IdModule  = Synchro2_Rev_A:SMT_VERT_M1.27_2x5;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EDE820;
 Reference = N4;
-ValeurCmp = ARM_JTAG_10PIN;
+ValeurCmp = HEADER_2X5_2.54MM__JTAG;
 IdModule  = Synchro2_Rev_A:ARM_JTAG_2X5_2.54MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/52E8DEB3;
 Reference = N5;
-ValeurCmp = TWIST_MOTOR;
+ValeurCmp = HEADER_1X2_KK__TWIST_MOTOR;
 IdModule  = Synchro2_Rev_A:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/52E8DEB9;
 Reference = N6;
-ValeurCmp = DRIVE_MOTOR;
+ValeurCmp = HEADER_1X2_KK__DRIVE_MOTOR;
 IdModule  = Synchro2_Rev_A:Socket_MOLEX-KK-RM2-54mm_Lock_2pin_straight;
 EndCmp
 
@@ -430,140 +430,140 @@ EndCmp
 BeginCmp
 TimeStamp = /52EB2E58;
 Reference = SW1;
-ValeurCmp = RESET_BUTTON;
+ValeurCmp = KSS221GLFS__RESET;
 IdModule  = Synchro2_Rev_A:KSS221GLFS;
 EndCmp
 
 BeginCmp
 TimeStamp = /530AC548;
 Reference = TP1;
-ValeurCmp = L5.0V;
+ValeurCmp = TP__L5.0V;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530ABBE7;
 Reference = TP2;
-ValeurCmp = L3.3V;
+ValeurCmp = TP__L3.3V;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530AA276;
 Reference = TP3;
-ValeurCmp = LGND;
+ValeurCmp = TP__LGND;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AB8E1;
 Reference = TP4;
-ValeurCmp = PWM_CLK;
+ValeurCmp = TP__PWM_CLK;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AB6EC;
 Reference = TP5;
-ValeurCmp = MPWR;
+ValeurCmp = TP__MPWR;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AB448;
 Reference = TP6;
-ValeurCmp = MGND;
+ValeurCmp = TP__MGND;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AE3AA;
 Reference = TP7;
-ValeurCmp = DAC_SDI;
+ValeurCmp = TP__DAC_SDI;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AE3C9;
 Reference = TP8;
-ValeurCmp = DAC_SCK;
+ValeurCmp = TP__DAC_SCK;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AE3D4;
 Reference = TP9;
-ValeurCmp = DAC_CS;
+ValeurCmp = TP__DAC_CS;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AE814;
 Reference = TP10;
-ValeurCmp = DAC_AOUT;
+ValeurCmp = TP__DAC_AOUT;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AEE09;
 Reference = TP11;
-ValeurCmp = TWEN;
+ValeurCmp = TP__TWEN;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DBBA/530AF23C;
 Reference = TP12;
-ValeurCmp = TW_SEN;
+ValeurCmp = TP__TW_SEN;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B1BB7;
 Reference = TP13;
-ValeurCmp = MB_TX;
+ValeurCmp = TP__MB_TX;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B1BC2;
 Reference = TP14;
-ValeurCmp = MB_RX;
+ValeurCmp = TP__MB_RX;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B353E;
 Reference = TP15;
-ValeurCmp = ENC_INT;
+ValeurCmp = TP__ENC_INT;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B4D32;
 Reference = TP16;
-ValeurCmp = DR_SCLK;
+ValeurCmp = TP__DR_SCLK;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B4D3D;
 Reference = TP17;
-ValeurCmp = DR_SEL;
+ValeurCmp = TP__DR_SEL;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B43DD;
 Reference = TP18;
-ValeurCmp = DR_MISO;
+ValeurCmp = TP__DR_MISO;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /530B48A2;
 Reference = TP19;
-ValeurCmp = DR_MOSI;
+ValeurCmp = TP__DR_MOSI;
 IdModule  = Synchro2_Rev_A:TEST_POINT;
 EndCmp
 
@@ -605,7 +605,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E9ABDA;
 Reference = U6;
-ValeurCmp = TC1015;
+ValeurCmp = TC1015-3.3V;
 IdModule  = Synchro2_Rev_A:SOT95P280X145-5N;
 EndCmp
 
@@ -647,7 +647,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E8DBBA/52E8DE67;
 Reference = U12;
-ValeurCmp = 74XX74;
+ValeurCmp = 74HC74;
 IdModule  = Synchro2_Rev_A:SOIC127P600X175-14N;
 EndCmp
 
@@ -668,7 +668,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E8DBBA/52E8DEA1;
 Reference = U15;
-ValeurCmp = MCP48X2;
+ValeurCmp = MCP4802;
 IdModule  = Synchro2_Rev_A:SOIC127P600X175-8N;
 EndCmp
 
@@ -682,7 +682,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52E97AD4;
 Reference = X1;
-ValeurCmp = 10MHz;
+ValeurCmp = 20MHz;
 IdModule  = Synchro2_Rev_A:XTAL1150X480X430N;
 EndCmp
 

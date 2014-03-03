@@ -124,4 +124,13 @@ voltage is not exceeded.
 There are the usual set of bypass capacitors (C15-C21)
 and test points for debugging.
 
+### Rev. A Notes
+
+* The current sense resistor is too big.  At maximum
+  current (3A), the resistor will generate 5W of power.
+  The current sense resistors are only 2W devices.
+  The resistor needs to be dropped from .56 Ohm to
+  .2 Ohm.  This will require changing the DAC to
+  be one that has a maximum voltage input rather
+  than an internally generated one.
 
